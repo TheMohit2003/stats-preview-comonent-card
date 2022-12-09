@@ -1,0 +1,63 @@
+body {
+  background-color: #090B1A;
+}
+
+.card {
+  background-color: #1B1938;
+  height: 55%;
+  width: 66%;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 25px;
+}
+
+img {
+  height: 414.5px;
+  width: 100%;
+  border-radius: 0 25px 25px 0;
+  /* copied from stack overflow , this codes is to add a layer of color on the images*/
+  outline: 100vmax solid hsla(277, 64%, 61%, 0.7);
+  outline-offset: -100vmax;
+  -webkit-mask: linear-gradient(#000 0 0);
+  /* to hide the overflowing outline */
+}
+
+.container-1 {
+  margin-top: 50px;
+  margin-left: 40px;
+  line-height: 0.1;
+  /* font-family: 'Inter', sans-serif;
+  font-weight: Bold; */
+}
+
+
+
+.container-2 {
+  padding-top: 20px;
+  padding-left: 40px;
+  line-height: 1.4;
+  margin-bottom: 60px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: lighter;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.container-3 {
+  margin-left: 40px;
+  line-height: .5;
+}
+
+span{
+  color: hsla(277, 64%, 61%, 0.7);
+}
+
+.types{
+  font-weight: 100;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 13px;
+}
